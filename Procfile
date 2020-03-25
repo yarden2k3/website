@@ -1,1 +1,1 @@
-gunicorn script1_wsgi.py:application
+web: gunicorn script1.py:app
